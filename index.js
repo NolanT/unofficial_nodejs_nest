@@ -53,7 +53,7 @@
      */
     var login = function (username, password, done) {
         nestPost({
-          hostname: 'home.nest.com',
+          hostname: 'home.ft.nest.com',
           port: 443,
           path:'/user/login',
           body: { 'username': username, 'password': password },
